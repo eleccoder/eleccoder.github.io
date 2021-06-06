@@ -3,7 +3,8 @@
 title: eleccoder's
 subtitle: Landing page
 layout: page
-show_sidebar: true
+show_sidebar: false
+menubar: menu
 ---
 
 ## Welcome to eleccoder's Site
@@ -16,3 +17,5 @@ In the future (still in 2021), I plan to publish some stuff about my interests:
 - RF: (HAM) Radio, **SDR**, Digimodes, LoRa, APRS, ...
 - Programming: C++ (mainly), Python
 - GPU-Programming (i.e. massively parallel): CUDA
+
+

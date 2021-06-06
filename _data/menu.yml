@@ -1,0 +1,19 @@
+- label: Some Basic Theory
+  items:
+    - name: Why-is-it-so
+      link: /parent-item/
+      items:
+        - name: Floating OpAmp
+          link: /Floating_OpAmp/
+
+- label: Projects
+#  items:
+#    - name: Project #1
+#      link: /another-example-item/
+
+- label: Gadgets
+#  items:
+#    - name: Gadget #1
+#      link: /example-item/
+
+
