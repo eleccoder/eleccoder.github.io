@@ -16,4 +16,9 @@
 #    - name: Gadget #1
 #      link: /example-item/
 
+- label: TEST
+  items:
+    - name: TEST
+      link: /test/
+
 
