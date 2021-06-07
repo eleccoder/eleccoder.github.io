@@ -24,6 +24,9 @@ url: "https://eleccoder.github.io/" # the base hostname & protocol for your site
 github_username: eleccoder
 timezone: Europe/Berlin
 
+disqus:
+    shortname: http-eleccoder-github-io
+
 # Build settings
 markdown: kramdown
 #theme: bulma-clean-theme
@@ -37,8 +40,6 @@ defaults:
       path: "" # an empty string here means all files in the project
     values:
       hero_image: /assets/images/msox2024a-front-1200x735-White-b.jpg
-
-disqus.shortname: http-eleccoder-github-io
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
