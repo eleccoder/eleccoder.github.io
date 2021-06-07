@@ -1,9 +1,10 @@
 ---
 layout: page
+hide_hero: true
 mathjax: true
 ---
 
-## OpAmp diferential amplifier: _Single-Ended_ Inputs vs. _Double-Ended_ Input
+## OpAmp differential amplifier: _Single-Ended_ Inputs vs. _Double-Ended_ Input
 
 I'm going to show that the gain factor of an OpAmp differential amplifier will be different between single-ended operation and double-ended operation. Single-ended operation is characterized by two input voltages, each referenced to ground whereas double-ended operation is characterized by one 'floating' input voltage, i.e. w/o reference to the ground potential.
 

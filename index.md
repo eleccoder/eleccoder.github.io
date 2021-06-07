@@ -1,10 +1,9 @@
 ---
-
 title: eleccoder's
 subtitle: Landing page
 layout: page
 show_sidebar: false
-menubar: menu
+menubar: navigation
 ---
 
 ## Welcome to eleccoder's Site
