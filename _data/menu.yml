@@ -8,17 +8,12 @@
 
 - label: Projects
 #  items:
-#    - name: Project #1
+#    - name: Project
 #      link: /another-example-item/
 
 - label: Gadgets
 #  items:
-#    - name: Gadget #1
-#      link: /example-item/
-
-- label: TEST
-  items:
-    - name: TEST
-      link: /test
+#    - name: Gadget
+#      link: /example-item
 
 
