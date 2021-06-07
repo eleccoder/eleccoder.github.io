@@ -38,6 +38,8 @@ defaults:
     values:
       hero_image: /assets/images/msox2024a-front-1200x735-White-b.jpg
 
+disqus.shortname: http-eleccoder-github-io
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

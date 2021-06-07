@@ -2,6 +2,7 @@
 layout: page
 hide_hero: true
 # toc: true
+comments: true
 mathjax: true
 ---
 
@@ -27,7 +28,7 @@ _Note: The battery symbol has been used just to illustrate that the voltage sour
    <a href="{{site.baseurl}}">
    <img src="/assets/images/Fig_2_EN.png" style="max-width: 500px;">
    </a>
-   <figcaption>Fig. 1: Differential amplifier driven by single-ended inputs \(V_{i_+}\) Vi+ and \(V_{i_-}\)-</figcaption>
+   <figcaption>Fig. 1: Differential amplifier driven by single-ended inputs \(V_{i_+}\) and \(V_{i_-}\)</figcaption>
 </figure>
 
 <figure>
