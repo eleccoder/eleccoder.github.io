@@ -1,10 +1,10 @@
 - label: Some Basic Theory
   items:
     - name: Why-is-it-so
-      link: /parent-item/
+      link: /#
       items:
         - name: Floating OpAmp
-          link: /Floating_OpAmp/
+          link: /Floating_OpAmp
 
 - label: Projects
 #  items:
@@ -19,6 +19,6 @@
 - label: TEST
   items:
     - name: TEST
-      link: /test/
+      link: /test
 
 
