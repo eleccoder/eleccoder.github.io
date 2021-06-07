@@ -1,25 +1,38 @@
 ---
 layout: page
 hide_hero: true
+# toc: true
 mathjax: true
 ---
 
-## OpAmp differential amplifier: _Single-Ended_ Inputs vs. _Double-Ended_ Input
+## OpAmp differential amplifier gain: _Single-Ended_ Inputs vs. _Double-Ended_ Input
 
-I'm going to show that the gain factor of an OpAmp differential amplifier will be different between single-ended operation and double-ended operation. Single-ended operation is characterized by two input voltages, each referenced to ground whereas double-ended operation is characterized by one 'floating' input voltage, i.e. w/o reference to the ground potential.
+<figure>
+   <a href="{{site.baseurl}}">
+   <img src="/assets/images/Fig_1.png" style="max-width: 600px;">
+   </a>
+</figure>
+
+### The difference is NOT the difference ...
+
+I'll show that the gain factor of an OpAmp differential amplifier will be different between single-ended operation and double-ended operation.
+
+Single-ended operation is characterized by two input voltages, each referenced to ground (on the left side of the image above). In conrast, double-ended operation is characterized by one 'floating' input voltage, i.e. without reference to the ground potential (on the right side of the image above).
+
+_Note: The battery symbol has been used just to illustrate that the voltage source is potential-free and does not mean to be necessarily a battery component (it may be a sensor as well, for example)._
 
 ### Differential amplifier driven by single-ended inputs
 
 <figure>
    <a href="{{site.baseurl}}">
-   <img src="/assets/images/FloatingOpAmp_1.png" style="max-width: 400px;">
+   <img src="/assets/images/Fig_2_EN.png" style="max-width: 500px;">
    </a>
-   <figcaption>Fig. 1: Differential amplifier driven by single-ended inputs Vi+ und Vi-</figcaption>
+   <figcaption>Fig. 1: Differential amplifier driven by single-ended inputs \(V_{i_+}\) Vi+ and \(V_{i_-}\)-</figcaption>
 </figure>
 
 <figure>
    <a href="{{site.baseurl}}">
-   <img src="/assets/images/FloatingOpAmp_4.png" style="max-width: 400px;">
+   <img src="/assets/images/Fig_3_EN.png" style="max-width: 500px;">
    </a>
    <figcaption>Fig. 2: The passive network modelling single-ended operation</figcaption>
 </figure>
@@ -53,19 +66,18 @@ V_o = V_{i_+} \; - \; V_{i_-}
 
 <figure>
    <a href="{{site.baseurl}}">
-   <img src="/assets/images/FloatingOpAmp_2.png" style="max-width: 400px;">
+   <img src="/assets/images/Fig_4_EN.png" style="max-width: 500px;">
    </a>
-   <figcaption>Fig. 3: Differential amplifier driven by double-ended input Vd</figcaption>
+   <figcaption>Fig. 3: Differential amplifier driven by double-ended input \(V_{d}\)</figcaption>
 </figure>
 
 <figure>
    <a href="{{site.baseurl}}">
-   <img src="/assets/images/FloatingOpAmp_3.png" style="max-height: 300px;">
+   <img src="/assets/images/Fig_5_EN.png" style="max-height: 400px;">
    </a>
    <figcaption>Fig. 4: The passive network modelling double-ended operation</figcaption>
 </figure>
 
-_Note: The battery symbol in Fig. 3 and Fig. 4 has been used just to illustrate that the voltage source is potential-free and does not mean to be necessarily a battery component (it may be a sensor as well, for example)._
 
 Again, the feedback-controlled steady-state will be reached as soon as the ground-referenced input voltages equal each other:
 \begin{equation}\label{Eq:DiffAmp_Base}
@@ -117,7 +129,10 @@ $$
 
 Mentally replacing $$V_d$$ by $$V_{i_+} - V_{i_-}$$ in Eq. \ref{Eq:DiffAmp_DoubleEnded} we see that the result would not equal Eq. \ref{Eq:DiffAmp_SingleEnded}.
 
-**Hence, the hypothesis stated at the beginning has been proven: The difference of the input voltages $$V_{i_+} - V_{i_-}$$ in single-ended operation will be amplified by another gain factor than a floating voltage $$V_d$$ of equal magnitude.**
+<div class="notification is-info is-light">
+  <button class="delete"></button>
+  Hence, the hypothesis stated at the beginning has been proven: The difference of the input voltages \(V_{i_+} - V_{i_-}\) in single-ended operation will be amplified by another gain factor than a floating voltage \(V_d\) of equal magnitude.
+</div>
 
 One exeption holds for $$R_1 = R_2 = R_3 = R_4$$.
 

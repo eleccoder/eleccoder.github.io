@@ -1,6 +1,6 @@
 - label: Some Basic Theory
   items:
-    - name: Why-is-it-so
+    - name: Y-is-it-so ?
       link: /#
       items:
         - name: Floating OpAmp
