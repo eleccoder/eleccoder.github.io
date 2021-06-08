@@ -2,7 +2,6 @@
 layout: page
 hide_hero: true
 # toc: true
-comments: true
 mathjax: true
 ---
 

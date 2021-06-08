@@ -4,6 +4,7 @@ subtitle: Landing page
 layout: page
 show_sidebar: false
 menubar: navigation
+comments: false
 ---
 
 ## Welcome to eleccoder's Site
