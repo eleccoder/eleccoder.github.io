@@ -13,7 +13,7 @@ mathjax: true
    </a>
 </figure>
 
-### The difference is NOT the difference ...
+### The difference makes a difference ...
 
 I'll show that the gain factor of an OpAmp differential amplifier will be different between single-ended operation and double-ended operation.
 
