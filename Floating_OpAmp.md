@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 hide_hero: true
 # toc: true
 mathjax: true
